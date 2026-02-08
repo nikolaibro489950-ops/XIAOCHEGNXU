@@ -1,0 +1,24 @@
+<view class="tab-container">
+    <view class="tab-bar">
+        <view class="tab-item active">Home</view>
+        <view class="tab-item">Profile</view>
+        <view class="tab-item">Settings</view>
+    </view>
+    <view class="tab-content">
+        <view class="content-home">Welcome to Home!</view>
+        <view class="content-profile" hidden>Profile Information</view>
+        <view class="content-settings" hidden>Settings Options</view>
+    </view>
+</view>
+
+<script>
+    const app = getApp();
+    Page({
+        data: {
+            activeTab: 'home'
+        },
+        onTabChange(e) {
+            this.setData({ activeTab: e.target.dataset.tab });
+        }
+    });
+</script>
