@@ -1,1 +1,48 @@
-{\n  "appName": "杨工分享",\n  "pages": [\n    "home",\n    "projects",\n    "cases",\n    "team",\n    "about",\n    "personal profile"\n  ]\n}
+{ 
+  "pages": {
+    "home": "pages/home/home", 
+    "cases": "pages/cases/cases", 
+    "projects": "pages/projects/projects", 
+    "team": "pages/team/team", 
+    "about": "pages/about/about",
+    "personal": "pages/personal/personal"
+  },
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "color": "#7A7A7A",
+    "selectedColor": "#FF4500",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "assets/tab/home.png",
+        "selectedIconPath": "assets/tab/home-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/projects/projects",
+        "iconPath": "assets/tab/projects.png",
+        "selectedIconPath": "assets/tab/projects-active.png",
+        "text": "工地"
+      },
+      {
+        "pagePath": "pages/team/team",
+        "iconPath": "assets/tab/team.png",
+        "selectedIconPath": "assets/tab/team-active.png",
+        "text": "团队"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "iconPath": "assets/tab/about.png",
+        "selectedIconPath": "assets/tab/about-active.png",
+        "text": "关于"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "iconPath": "assets/tab/personal.png",
+        "selectedIconPath": "assets/tab/personal-active.png",
+        "text": "我的"
+      }
+    ]
+  }
+}
