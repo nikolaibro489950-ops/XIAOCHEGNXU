@@ -1,0 +1,37 @@
+<view class='company-info'>
+  <text>Company Info Banner</text>
+</view>
+
+<navigation-tabs>
+  <tab>工地</tab>
+  <tab>直播</tab>
+  <tab>案例</tab>
+  <tab>团队</tab>
+  <tab>工艺</tab>
+  <tab>促销</tab>
+</navigation-tabs>
+
+<marketing-banner>
+  <text>Marketing Banner</text>
+</marketing-banner>
+
+<service-cards>
+  <card>装修报价</card>
+  <card>免费量房</card>
+  <card>免费咨询</card>
+  <card>进店有礼</card>
+</service-cards>
+
+<case-showcase>
+  <grid>
+    <image src='project1.jpg'></image>
+    <image src='project2.jpg'></image>
+    <image src='project3.jpg'></image>
+    <image src='project4.jpg'></image>
+    <image src='project5.jpg'></image>
+    <image src='project6.jpg'></image>
+    <image src='project7.jpg'></image>
+    <image src='project8.jpg'></image>
+    <image src='project9.jpg'></image>
+  </grid>
+</case-showcase>
